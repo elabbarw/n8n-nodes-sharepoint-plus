@@ -12,7 +12,7 @@ export class MicrosoftSharePointOAuth2Api implements ICredentialType {
 
 	displayName = 'Microsoft SharePoint OAuth2 API';
 
-	documentationUrl = 'microsoft';
+	documentationUrl = 'https://learn.microsoft.com/en-us/sharepoint/dev/apis/sharepoint-rest-graph';
 
 	httpRequestNode = {
 		name: 'Microsoft SharePoint',

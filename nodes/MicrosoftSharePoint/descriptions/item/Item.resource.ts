@@ -49,7 +49,7 @@ export const description: INodeProperties[] = [
 						postReceive: [handleErrorPostReceive],
 					},
 				},
-				action: 'Create or update item (upsert)',
+				action: 'Create or update item (Upsert)',
 			},
 			{
 				name: 'Delete',

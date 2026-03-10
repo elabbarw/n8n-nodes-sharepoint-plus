@@ -236,7 +236,7 @@ export async function getFolders(
 	);
 
 	const rootOption: INodeListSearchItems = {
-		name: '/ (Library root)',
+		name: '/ (Library Root)',
 		value: 'root',
 	};
 
