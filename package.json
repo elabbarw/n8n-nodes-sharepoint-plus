@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-sharepoint-plus",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "n8n community node for Microsoft SharePoint with document library (drives) support",
 	"keywords": [
 		"n8n-community-node-package"
