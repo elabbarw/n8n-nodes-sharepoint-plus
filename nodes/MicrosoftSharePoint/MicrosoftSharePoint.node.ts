@@ -6,7 +6,7 @@ import { listSearch, resourceMapping } from './methods';
 
 export class MicrosoftSharePoint implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Microsoft SharePoint',
+		displayName: 'Microsoft SharePoint+',
 		name: 'microsoftSharePoint',
 		icon: {
 			light: 'file:microsoftSharePoint.svg',
@@ -17,7 +17,7 @@ export class MicrosoftSharePoint implements INodeType {
 		subtitle: '={{ $parameter["operation"] + ": " + $parameter["resource"] }}',
 		description: 'Interact with Microsoft SharePoint API',
 		defaults: {
-			name: 'Microsoft SharePoint',
+			name: 'Microsoft SharePoint+',
 		},
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
